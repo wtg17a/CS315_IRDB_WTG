@@ -10,6 +10,9 @@ import UIKit
 class IRDBTableViewController: UITableViewController {
 
     //Temporary data model
+    var outerArray = ["Section 1", "Section 2"]
+    var innerArray1 = ["Item 1", "Item 2", "Item 3"]
+    var innerArray2 = ["Item 1", "Item 2", "Item 3", "Item 4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,24 +42,39 @@ class IRDBTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 2
+        return outerArray.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 4
+        
+        if(section == 0) {
+            return innerArray1.count
+        }
+        else if(section == 1) {
+            return innerArray2.count
+        }
+        else {
+            return 1
+        }
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Placeholder Header"
+        return outerArray[section]
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "mediaCell", for: indexPath)
 
+        var arrayForThisCell = [Any]()
+        
+        if(indexPath.section == 0) {
+            arrayForThisCell = innerArray1
+        } else if(indexPath.section == 1) {
+            arrayForThisCell = innerArray2
+        }
+        
         // Configure the cell...
-        cell.textLabel?.text = "some stuff"
+        cell.textLabel?.text = arrayForThisCell[indexPath.row] as? String
 
         return cell
     }
