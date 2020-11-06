@@ -14,6 +14,8 @@
 		203A73102554938700367AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203A730F2554938700367AF3 /* Assets.xcassets */; };
 		203A73132554938700367AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A73112554938700367AF3 /* LaunchScreen.storyboard */; };
 		2076ACFE2554DD540068D5D1 /* IRDBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076ACFD2554DD540068D5D1 /* IRDBTableViewController.swift */; };
+		2081E0F02555E59200C2BDAB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2081E0EF2555E59200C2BDAB /* DataController.swift */; };
+		2081E0F32555E5B700C2BDAB /* MediaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2081E0F22555E5B700C2BDAB /* MediaDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		203A73122554938700367AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		203A73142554938700367AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2076ACFD2554DD540068D5D1 /* IRDBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBTableViewController.swift; sourceTree = "<group>"; };
+		2081E0EF2555E59200C2BDAB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2081E0F22555E5B700C2BDAB /* MediaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				203A73112554938700367AF3 /* LaunchScreen.storyboard */,
 				203A73142554938700367AF3 /* Info.plist */,
 				2076ACFD2554DD540068D5D1 /* IRDBTableViewController.swift */,
+				2081E0EF2555E59200C2BDAB /* DataController.swift */,
+				2081E0F22555E5B700C2BDAB /* MediaDataModel.swift */,
 			);
 			path = IRDB_WTG;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2081E0F02555E59200C2BDAB /* DataController.swift in Sources */,
 				2076ACFE2554DD540068D5D1 /* IRDBTableViewController.swift in Sources */,
+				2081E0F32555E5B700C2BDAB /* MediaDataModel.swift in Sources */,
 				203A730B2554938600367AF3 /* ViewController.swift in Sources */,
 				203A73072554938600367AF3 /* AppDelegate.swift in Sources */,
 				203A73092554938600367AF3 /* SceneDelegate.swift in Sources */,
