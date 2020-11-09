@@ -33,7 +33,9 @@ class CastTableViewController: UITableViewController {
 
         // Configure the cell...
         
-        // Use the values in the array to display the cast
+        cell.textLabel?.text = castListArray?[indexPath.row].actorName
+        
+        cell.detailTextLabel?.text = castListArray?[indexPath.row].role
 
         return cell
     }

@@ -40,7 +40,9 @@ class DetailViewController: UIViewController {
         
         if let entry = detailItem {
             if let thisMediaImage = mediaImage {
-                
+                let url = URL(string: entry.imageURL)
+                let data:NSData? = NSData(contentsOf: url!)
+                thisMediaImage.image = UIImage(data: data! as Data)
             }
             if let thisTitleLabel = titleLabel {
                 thisTitleLabel.text = entry.name
