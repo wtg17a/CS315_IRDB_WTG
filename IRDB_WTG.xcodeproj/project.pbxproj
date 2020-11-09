@@ -13,6 +13,7 @@
 		203A730E2554938600367AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A730C2554938600367AF3 /* Main.storyboard */; };
 		203A73102554938700367AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203A730F2554938700367AF3 /* Assets.xcassets */; };
 		203A73132554938700367AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A73112554938700367AF3 /* LaunchScreen.storyboard */; };
+		2042DA1F2559E2FE00CD11C3 /* CustomDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2042DA1E2559E2FE00CD11C3 /* CustomDataModel.swift */; };
 		2076ACFE2554DD540068D5D1 /* IRDBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076ACFD2554DD540068D5D1 /* IRDBTableViewController.swift */; };
 		2081E0F02555E59200C2BDAB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2081E0EF2555E59200C2BDAB /* DataController.swift */; };
 		2081E0F32555E5B700C2BDAB /* MediaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2081E0F22555E5B700C2BDAB /* MediaDataModel.swift */; };
@@ -28,6 +29,7 @@
 		203A730F2554938700367AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203A73122554938700367AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		203A73142554938700367AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2042DA1E2559E2FE00CD11C3 /* CustomDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataModel.swift; sourceTree = "<group>"; };
 		2076ACFD2554DD540068D5D1 /* IRDBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDBTableViewController.swift; sourceTree = "<group>"; };
 		2081E0EF2555E59200C2BDAB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		2081E0F22555E5B700C2BDAB /* MediaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDataModel.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				2081E0EF2555E59200C2BDAB /* DataController.swift */,
 				2081E0F22555E5B700C2BDAB /* MediaDataModel.swift */,
 				20CD60192558B90500F6F78F /* CastTableViewController.swift */,
+				2042DA1E2559E2FE00CD11C3 /* CustomDataModel.swift */,
 			);
 			path = IRDB_WTG;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				2081E0F32555E5B700C2BDAB /* MediaDataModel.swift in Sources */,
 				203A730B2554938600367AF3 /* DetailViewController.swift in Sources */,
 				203A73072554938600367AF3 /* AppDelegate.swift in Sources */,
+				2042DA1F2559E2FE00CD11C3 /* CustomDataModel.swift in Sources */,
 				203A73092554938600367AF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
