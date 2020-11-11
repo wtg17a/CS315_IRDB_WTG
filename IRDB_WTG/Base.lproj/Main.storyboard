@@ -83,9 +83,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zx5-49-0Qg" userLabel="HeaderView">
                                 <rect key="frame" x="0.0" y="88" width="414" height="256"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wte-Bu-NrG" userLabel="Cast List">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wte-Bu-NrG">
                                         <rect key="frame" x="176" y="207" width="230" height="41"/>
-                                        <state key="normal" title="Cast List"/>
+                                        <state key="normal" title="Resistances"/>
                                         <connections>
                                             <segue destination="HhH-CJ-vHH" kind="show" identifier="showCastList" id="xs3-po-rZx"/>
                                         </connections>
