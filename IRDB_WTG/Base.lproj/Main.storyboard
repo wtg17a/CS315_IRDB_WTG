@@ -11,7 +11,7 @@
         <!--Root View Controller-->
         <scene sceneID="sCE-5a-tNj">
             <objects>
-                <tableViewController id="hTe-nk-yTu" customClass="IRDBTableViewController" customModule="IRDB_WTG" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="hTe-nk-yTu" customClass="BugFablesTableViewController" customModule="IRDB_WTG" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="7Vh-uc-IsA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="-772" y="90"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Bug Fables Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="DetailViewController" customModule="IRDB_WTG" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BugFablesDetailViewController" customModule="IRDB_WTG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,10 +218,10 @@
             </objects>
             <point key="canvasLocation" x="1008.6956521739131" y="89.732142857142847"/>
         </scene>
-        <!--Cast Table View Controller-->
+        <!--Bug Fables Resistances Table View Controller-->
         <scene sceneID="xYp-4G-jSi">
             <objects>
-                <tableViewController id="HhH-CJ-vHH" customClass="CastTableViewController" customModule="IRDB_WTG" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="HhH-CJ-vHH" customClass="BugFablesResistancesTableViewController" customModule="IRDB_WTG" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FKI-DK-M65">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

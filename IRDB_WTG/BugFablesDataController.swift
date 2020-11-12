@@ -9,7 +9,7 @@ import UIKit
 
 class BugFablesDataController: NSObject {
 
-    let JSONURL = "https://api.jsonbin.io/b/5fac62c0ea9b612e1c668486"
+    let JSONURL = "https://api.jsonbin.io/b/5fad8e6d43fc1e2e1b415cea/2"
     
     var dataModel: CustomDataModel?
     

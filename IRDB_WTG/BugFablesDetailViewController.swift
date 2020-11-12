@@ -63,10 +63,10 @@ class BugFablesDetailViewController: UIViewController {
             // Bottom view
             
             if let thisDescriptionLabel = descriptionLabel {
-                thisDescriptionLabel.text = "Vi's description: \(entry.tattleVi) \n Kabbu's description: \(entry.tattleKabbu) \n Leif's description: \(entry.tattleLeif)"
+                thisDescriptionLabel.text = entry.bestiary
             }
             if let thisSummaryTextView = summaryTextView {
-                thisSummaryTextView.text = entry.bestiary
+                thisSummaryTextView.text = "Vi's description: \(entry.tattleVi)\n\nKabbu's description: \(entry.tattleKabbu)\n\nLeif's description: \(entry.tattleLeif)\n\nReward: \(entry.reward)\n\nHard mode reward: \(entry.hardModeReward ?? "None")"
             }
         }
     }
