@@ -20,7 +20,7 @@ class BugFablesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "IRDb"
+        title = "B.O.S.S."
         
         // 1
         let nav = self.navigationController?.navigationBar
@@ -34,7 +34,7 @@ class BugFablesTableViewController: UITableViewController {
         imageView.contentMode = .scaleAspectFit
               
         // 4
-        let image = UIImage(named: "irdblogo")
+        let image = UIImage(named: "Tanjerin_0")
         imageView.image = image
               
         // 5
